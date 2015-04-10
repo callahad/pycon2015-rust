@@ -1,0 +1,9 @@
+[package]
+
+name = "burn"
+version = "0.0.1"
+authors = ["Dan Callahan <dan.callahan@gmail.com>"]
+
+[lib]
+name = "burn"
+crate-type = ["dylib"]

@@ -1,0 +1,11 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/callahad/python-rust-ffi
+	branch = master
+	commit = b6eab590413240bda0371ba86f2c1753fd7cf410
+	parent = none
+	cmdver = 0.2.1

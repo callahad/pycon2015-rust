@@ -1,0 +1,9 @@
+[package]
+
+name = "double"
+version = "0.0.1"
+authors = ["Dan Callahan <dan.callahan@gmail.com>"]
+
+[lib]
+name = "double"
+crate-type = ["dylib"]
