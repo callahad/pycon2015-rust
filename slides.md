@@ -35,7 +35,7 @@ But it's not, and we never do.
 
 ***
 
-### We're standing on the shoulders of giants.
+### We're standing on their shoulders
 
 ### And so are they.
 <!-- .element: class="fragment" -->
