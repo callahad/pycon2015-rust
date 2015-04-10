@@ -26,8 +26,11 @@
 		});
 	}
 
-	var DEFAULT_SLIDE_SEPARATOR = '^\r?\n---\r?\n$',
-		DEFAULT_NOTES_SEPARATOR = 'note:',
+	marked.setOptions({smartypants: true});
+
+	var DEFAULT_SLIDE_SEPARATOR = '^\\s{0,3}-\\s*-\\s*-[-\\s]*$',           // ---
+		DEFAULT_VERTICAL_SEPARATOR = '^\\s{0,3}\\*\\s*\\*\\s*\\*[\\*\\s]*$' // ***
+		DEFAULT_NOTES_SEPARATOR = '^\r?\nNote:',
 		DEFAULT_ELEMENT_ATTRIBUTES_SEPARATOR = '\\\.element\\\s*?(.+?)$',
 		DEFAULT_SLIDE_ATTRIBUTES_SEPARATOR = '\\\.slide:\\\s*?(\\\S.+?)$';
 
@@ -96,6 +99,7 @@
 		options = options || {};
 		options.separator = options.separator || DEFAULT_SLIDE_SEPARATOR;
 		options.notesSeparator = options.notesSeparator || DEFAULT_NOTES_SEPARATOR;
+		options.verticalSeparator = options.verticalSeparator || DEFAULT_VERTICAL_SEPARATOR;
 		options.attributes = options.attributes || '';
 
 		return options;
@@ -214,7 +218,7 @@
 
 				// see https://developer.mozilla.org/en-US/docs/Web/API/element.getAttribute#Notes
 				if( datacharset != null && datacharset != '' ) {
-					xhr.overrideMimeType( 'text/html; charset=' + datacharset );
+					xhr.overrideMimeType( 'text/x-markdown; charset=' + datacharset );
 				}
 
 				xhr.onreadystatechange = function() {
