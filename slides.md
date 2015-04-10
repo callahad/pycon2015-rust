@@ -51,7 +51,13 @@ But it's not, and we never do.
 
 ### Memory management is **hard**.
 
-<video data-autoplay class="stretch" src="img/ghostride.mp4"></video>
+Much like the video at
+
+[youtube.com/watch?v=718fskG2n34](https://www.youtube.com/watch?v=718fskG2n34)
+
+C has no safety belts.
+
+<!-- <video data-autoplay class="stretch" src="img/ghostride.mp4"></video> -->
 
 ***
 
@@ -104,12 +110,24 @@ Growable things like vectors must go on the heap._
 
 ***
 <!-- .slide: data-background-transition="none" data-background="img/ownership/01.jpg" -->
+
+&nbsp;
+
 ***
 <!-- .slide: data-background-transition="none" data-background="img/ownership/02.jpg" -->
+
+&nbsp;
+
 ***
 <!-- .slide: data-background-transition="none" data-background="img/ownership/03.jpg" -->
+
+&nbsp;
+
 ***
 <!-- .slide: data-background-transition="none" data-background="img/ownership/04.jpg" -->
+
+&nbsp;
+
 
 ---
 
@@ -119,36 +137,84 @@ Growable things like vectors must go on the heap._
 
 ***
 <!-- .slide: data-background-transition="none" data-background="img/ownership/05.jpg" -->
+
+&nbsp;
+
 ***
 <!-- .slide: data-background-transition="none" data-background="img/ownership/06.jpg" -->
+
+&nbsp;
+
 ***
 <!-- .slide: data-background-transition="none" data-background="img/ownership/07.jpg" -->
+
+&nbsp;
+
 ***
 <!-- .slide: data-background-transition="none" data-background="img/ownership/08.jpg" -->
+
+&nbsp;
+
 ***
 <!-- .slide: data-background-transition="none" data-background="img/ownership/09.jpg" -->
+
+&nbsp;
+
 ***
 <!-- .slide: data-background-transition="none" data-background="img/ownership/10.jpg" -->
+
+&nbsp;
+
 ***
 <!-- .slide: data-background-transition="none" data-background="img/ownership/11.jpg" -->
+
+&nbsp;
+
 ***
 <!-- .slide: data-background-transition="none" data-background="img/ownership/12.jpg" -->
+
+&nbsp;
+
 ***
 <!-- .slide: data-background-transition="none" data-background="img/ownership/13.jpg" -->
+
+&nbsp;
+
 ***
 <!-- .slide: data-background-transition="none" data-background="img/ownership/14.jpg" -->
+
+&nbsp;
+
 ***
 <!-- .slide: data-background-transition="none" data-background="img/ownership/15.jpg" -->
+
+&nbsp;
+
 ***
 <!-- .slide: data-background-transition="none" data-background="img/ownership/16.jpg" -->
+
+&nbsp;
+
 ***
 <!-- .slide: data-background-transition="none" data-background="img/ownership/17.jpg" -->
+
+&nbsp;
+
 ***
 <!-- .slide: data-background-transition="none" data-background="img/ownership/18.jpg" -->
+
+&nbsp;
+
 ***
 <!-- .slide: data-background-transition="none" data-background="img/ownership/19.jpg" -->
+
+&nbsp;
+
 ***
 <!-- .slide: data-background-transition="none" data-background="img/ownership/20.jpg" -->
+
+&nbsp;
+
 ***
 
 ### Enforced Statically at Compile Time

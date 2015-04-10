@@ -5,8 +5,10 @@ fn add_one(num: &mut i32) {
 fn main() {
     let mut x = 5;
 
-    let y = &mut x;
-    add_one(y);
+    {
+        let y = &mut x;
+        add_one(y);
+    }
 
     println!("{}", x)
 }

@@ -8,7 +8,7 @@ pub extern fn triple(x: i32) -> i32 {
             println!("Thread {} running", i);
 
             let mut x = 0;
-            while x < 10_000_000 {
+            while x < 1_000_000_000 {
                 x += 1
             }
 
