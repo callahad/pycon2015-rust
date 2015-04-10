@@ -4,7 +4,7 @@
 from threading import Thread
 
 
-def count(i):
+def run(i):
     print("Thread {} starting".format(i))
 
     x = 0
@@ -14,11 +14,11 @@ def count(i):
     print("Thread {} returned".format(i))
 
 
-def main():
+def triple(x):
     thread_list = []
 
     for i in range(10):
-        t = Thread(target=count, args=(i,))
+        t = Thread(target=run, args=(i,))
         thread_list.append(t)
 
     for thread in thread_list:
@@ -27,8 +27,8 @@ def main():
     for thread in thread_list:
         thread.join()
 
-    print("Completely done")
+    return x * 3
 
 
 if __name__ == '__main__':
-    main()
+    print(triple(3))
