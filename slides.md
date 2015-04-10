@@ -51,6 +51,10 @@ But it's not, and we never do.
 
 ***
 
+<video data-autoplay class="stretch" src="img/ghostride.mp4"></video>
+
+***
+
 ### Memory management is **hard**.
 
 - Heartbleed <!-- .element: class="fragment" -->
@@ -106,8 +110,6 @@ Growable things like vectors must go on the heap._
 <!-- .slide: data-background-transition="none" data-background="img/ownership/02.jpg" -->
 ***
 <!-- .slide: data-background-transition="none" data-background="img/ownership/03.jpg" -->
-***
-<!-- .slide: data-background-transition="none" data-background="img/ownership/04.jpg" -->
 ***
 <!-- .slide: data-background-transition="none" data-background="img/ownership/04.jpg" -->
 
@@ -167,6 +169,16 @@ _This is a "Zero-Cost Abstraction."_
 ---
 
 ## Mutability Demos!
+
+---
+
+![](img/servo-github.png)
+<!-- .element: style="margin-top: -5%;" -->
+
+---
+
+![](img/servo-reddit.png)
+<!-- .element: style="margin-top: -5%;" -->
 
 ---
 
