@@ -101,52 +101,54 @@ Growable things like vectors must go on the heap._
 ## Managed vs unmanaged
 
 ***
-<!-- .slide: data-background="img/ownership/01.jpg" -->
+<!-- .slide: data-background-transition="none" data-background="img/ownership/01.jpg" -->
 ***
-<!-- .slide: data-background="img/ownership/02.jpg" -->
+<!-- .slide: data-background-transition="none" data-background="img/ownership/02.jpg" -->
 ***
-<!-- .slide: data-background="img/ownership/03.jpg" -->
+<!-- .slide: data-background-transition="none" data-background="img/ownership/03.jpg" -->
 ***
-<!-- .slide: data-background="img/ownership/04.jpg" -->
+<!-- .slide: data-background-transition="none" data-background="img/ownership/04.jpg" -->
 ***
-<!-- .slide: data-background="img/ownership/04.jpg" -->
+<!-- .slide: data-background-transition="none" data-background="img/ownership/04.jpg" -->
 
 ---
 
 ## Ownership
 
+<!-- .slide: data-background-transition="none" -->
+
 ***
-<!-- .slide: data-background="img/ownership/05.jpg" -->
+<!-- .slide: data-background-transition="none" data-background="img/ownership/05.jpg" -->
 ***
-<!-- .slide: data-background="img/ownership/06.jpg" -->
+<!-- .slide: data-background-transition="none" data-background="img/ownership/06.jpg" -->
 ***
-<!-- .slide: data-background="img/ownership/07.jpg" -->
+<!-- .slide: data-background-transition="none" data-background="img/ownership/07.jpg" -->
 ***
-<!-- .slide: data-background="img/ownership/08.jpg" -->
+<!-- .slide: data-background-transition="none" data-background="img/ownership/08.jpg" -->
 ***
-<!-- .slide: data-background="img/ownership/09.jpg" -->
+<!-- .slide: data-background-transition="none" data-background="img/ownership/09.jpg" -->
 ***
-<!-- .slide: data-background="img/ownership/10.jpg" -->
+<!-- .slide: data-background-transition="none" data-background="img/ownership/10.jpg" -->
 ***
-<!-- .slide: data-background="img/ownership/11.jpg" -->
+<!-- .slide: data-background-transition="none" data-background="img/ownership/11.jpg" -->
 ***
-<!-- .slide: data-background="img/ownership/12.jpg" -->
+<!-- .slide: data-background-transition="none" data-background="img/ownership/12.jpg" -->
 ***
-<!-- .slide: data-background="img/ownership/13.jpg" -->
+<!-- .slide: data-background-transition="none" data-background="img/ownership/13.jpg" -->
 ***
-<!-- .slide: data-background="img/ownership/14.jpg" -->
+<!-- .slide: data-background-transition="none" data-background="img/ownership/14.jpg" -->
 ***
-<!-- .slide: data-background="img/ownership/15.jpg" -->
+<!-- .slide: data-background-transition="none" data-background="img/ownership/15.jpg" -->
 ***
-<!-- .slide: data-background="img/ownership/16.jpg" -->
+<!-- .slide: data-background-transition="none" data-background="img/ownership/16.jpg" -->
 ***
-<!-- .slide: data-background="img/ownership/17.jpg" -->
+<!-- .slide: data-background-transition="none" data-background="img/ownership/17.jpg" -->
 ***
-<!-- .slide: data-background="img/ownership/18.jpg" -->
+<!-- .slide: data-background-transition="none" data-background="img/ownership/18.jpg" -->
 ***
-<!-- .slide: data-background="img/ownership/19.jpg" -->
+<!-- .slide: data-background-transition="none" data-background="img/ownership/19.jpg" -->
 ***
-<!-- .slide: data-background="img/ownership/20.jpg" -->
+<!-- .slide: data-background-transition="none" data-background="img/ownership/20.jpg" -->
 ***
 
 ### Enforced Statically at Compile Time
@@ -185,3 +187,9 @@ _rust-lang.org_
 @callahad
 
 dcallahan@mozilla.com
+
+github.com/callahad/pycon2015-rust
+
+___
+
+rust-lang.org
