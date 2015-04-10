@@ -20,8 +20,6 @@ But it's not, and we never do.
 
 ## Why don't we write C?
 
-***
-
 ### 1. Other people did it for us.
 
 ***
@@ -51,13 +49,13 @@ But it's not, and we never do.
 
 ***
 
+### Memory management is **hard**.
+
 <video data-autoplay class="stretch" src="img/ghostride.mp4"></video>
 
 ***
 
-### Memory management is **hard**.
-
-- Heartbleed <!-- .element: class="fragment" -->
+- Heartbleed
 - Ghost <!-- .element: class="fragment" -->
 - CVE-2015-0080 <!-- .element: class="fragment" -->
 
