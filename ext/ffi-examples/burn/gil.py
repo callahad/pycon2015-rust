@@ -8,7 +8,7 @@ def count(i):
     print("Thread {} starting".format(i))
 
     x = 0
-    while x < 2**23:
+    while x < 10000000:
         x += 1
 
     print("Thread {} returned".format(i))

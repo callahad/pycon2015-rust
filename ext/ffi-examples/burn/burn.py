@@ -5,9 +5,9 @@ from cffi import FFI
 ffi = FFI()
 
 ffi.cdef("""
-    long triple(long long x);
+    int triple(int x);
 """)
 
-C = ffi.dlopen("target/debug/libburn-ea11bffea0950ae2.dylib")
+C = ffi.dlopen("target/debug/libburn-c21ba537b4f26cae.dylib")
 
 print(C.triple(3))

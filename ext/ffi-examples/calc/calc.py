@@ -5,9 +5,9 @@ from cffi import FFI
 
 ffi = FFI()
 ffi.cdef("""
-    long long calculate(const char *script);
+    int calculate(const char *script);
 """)
-C = ffi.dlopen("target/release/libcalc-35d9862849daffe3.dylib")
+C = ffi.dlopen("target/release/libcalc-771b1f816b5bd78c.dylib")
 
 def main():
     result = C.calculate(b"+ * * + * - /")
